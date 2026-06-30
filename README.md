@@ -89,9 +89,9 @@
 ### 2025年（高専2年）
 - **AIチャットボット開発** — Gemini APIを活用したAIチャットボットを構築（AIGeminiChat, AI_ChatBot）
 - **ブラウザ拡張機能開発** — YouTube関連の拡張機能を開発・公開（youtube-force-filter, youtube-speed-controller）
-- **Raspberry Piプロジェクト** — デジタルサイネージプロジェクトを構築（rpi_DigitalSignageProject_ver2）
+- **自宅サーバ構築** — Raspberry Piで自宅サーバを構築し、Kubernetesでサービスを運用開始
 - **LINE OpenHackU参加** — 金沢で開催されたハッカソンに参加し、チーム開発を経験
-- **全国高専プロコン出場** — 瞑想支援デバイス（ESP32・心拍センサー・ぬいぐるみ）を開発し、ハードウェア×ソフトウェアの融合に挑戦
+- **全国高専プロコン出場（高専2年）** — ゲームを一緒にプレイできるAIエージェント「NextBro」を開発し出場。Python + Vue + TypeScriptで構築し、AIがゲームの状況を理解しプレイヤーと会話しながら協力プレイできるシステムを実現
 - **技育祭アンバサ** — 技育祭のアンバサダーとして活動
 - **DCON参加** — 高専DCONで事業構想を発表
 - **V-Mate初代開発開始** — 3D AIコンパニオンの原点となるプロジェクトを開始（v-mate-original）
@@ -101,6 +101,7 @@
 - **身体様式比較研究** — AIの「身体様式」が人-AI関係に与える影響を検証する研究プラットフォームを構築（v-mate-study）
 - **部活動マッチングアプリ設計** — 集合写真から顔を検出し、名前をマッチングするアプリの設計・開発
 - **StudyType開発** — 学習支援ツールを開発
+- **全国高専プロコン出場（高専3年）** — 瞑想支援デバイス（ESP32・心拍センサー・ぬいぐるみ）を開発し、ハードウェア×ソフトウェアの融合に挑戦
 - **ハッカソン参加継続** — 関西ビギナーズハッカソン、ヒーローズリーグ、ハッカソンjapanなどに参加
 - **未踏ジュニア応募** — 未踏ジュニアに応募し、技術力の証明を目指す
 - **大学受験準備** — 慶應SFC・立命館・近畿大学の総合型選抜に向けた準備を開始
@@ -120,8 +121,8 @@
       <p><code>Python</code> <code>C++</code> <code>C#</code> <code>.NET</code> <code>Flutter</code> <code>Dart</code> <code>Swift</code> <code>SwiftUI</code></p>
     </td>
     <td width="33%" valign="top">
-      <h3>💻 Hardware</h3>
-      <p><code>Arduino</code> <code>Raspberry Pi</code> <code>ESP32</code> <code>ROS</code> <code>Unity</code> <code>Blender</code> <code>Docker</code></p>
+      <h3>💻 Hardware & Infra</h3>
+      <p><code>Arduino</code> <code>Raspberry Pi</code> <code>ESP32</code> <code>Kubernetes</code> <code>Docker</code> <code>ROS</code> <code>Unity</code> <code>Blender</code></p>
     </td>
   </tr>
 </table>
