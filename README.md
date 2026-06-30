@@ -4,7 +4,7 @@
 
 <p>
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&color=%2355cc00&size=25&center=true&vCenter=true&width=600&height=70&lines=Full-Stack+Developer;AI+Companion+Creator;High+School+Student+Entrepreneur;Building+the+future+of+human-AI+relationships" alt="Typing SVG">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&color=%2355cc00&size=25&center=true&vCenter=true&width=600&height=70&lines=AI+Companion+Creator;Full-Stack+Developer;High+School+Student+Entrepreneur;Building+the+future+of+human-AI+relationships" alt="Typing SVG">
   </a>
 </p>
 
@@ -37,79 +37,91 @@
 
 ---
 
-## 🎯 Vision — なぜ作るのか
+## 🎯 Why University — なぜ高専を辞めてまで大学に行くのか
 
-> **「AIがどんな"身体"をまとって私たちの前に現れるかが、人とAIの関係の質を左右する。その効果を解明し、人とAIが健全に関係を築ける設計原理をつくりたい。」**
+高専は技術者を育てる場所であり、私はそこで多くのことを学んだ。しかし、私の問いは「技術を作れるか」を超えて「**AIが人との関係をどう変えるかを解明できるか**」に到達している。
 
-対話AIが生活に浸透する時代、「どのモデルが賢いか」を超えて「**AIがどんな姿・声・振る舞いをまとうと、人は安心して頼れるのか**」を実証的に明らかにすることが私の使命。
+この問いを解くには、情報科学だけでなく、認知科学・心理学・デザイン・社会システムの知を横断する必要がある。高専のカリキュラムでは、この領域横断的な研究環境を得ることが難しい。
 
-この研究は、AIコンパニオン、教育支援、メンタルヘルス、高齢者の孤独支援など、人がAIと深く関わるあらゆる場面の設計指針になる。
+大学は、**「作れる」を「解明できる」へと引き上げる場所**。研究としての問いを鍛え、異分野の知をつなぐ環境を求めて、私は大学進学を決意した。
 
 ---
 
-## 🚀 Major Works
+## 🎓 Target Universities — 受験する3校
+
+| 大学 | 学部 | なぜこの大学か |
+|---|---|---|
+| **慶應義塾大学** | 環境情報学部 | 情報科学×認知科学×デザイン×社会システムの領域横断がSFCの強み。実装力と社会実装を重視する評価軸が、私の実績と問いに完全一致。 |
+| **立命館大学** | 情報理工学部 | HCI・感情コンピューティング・3D描画・マルチモーダルAIの研究環境。技術的具体性を評価してくれる入試形式。 |
+| **近畿大学** | 情報学部 | ペーパーテストなし、書類→プレゼン・口頭試問のみ。出願資格がプログラミング経験・コンテスト出場者向けで、私の実績に正面から一致。地元関西から研究を続けられる。 |
+
+---
+
+## 🚀 Projects
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
       <h3>V-Mate — 3D AI Companion</h3>
       <p><strong>私の原点にして、研究の主軸。</strong></p>
-      <p>感情ベースで対話を行う3Dキャラクターインタラクションシステム。自然な会話、表情の変化、記憶の蓄積、親密度の成長、自発的な声かけ——話すたびに絆が深まる「相棒」として設計。</p>
-      <p>技術的には、Three.js + VRMによる3Dキャラクター描画、Geminiによる対話生成、ElevenLabs（音声合成）+ AssemblyAI（音声認識）によるマルチモーダル対話を統合。FastAPI + Socket.IOでリアルタイム通信を実現し、Web上に公開。</p>
-      <p>現在の課題：トゥーンシェーダーによる「二次元らしさ」の実現、モバイル対応、キャラクター設定の固定化。</p>
-      <p><sub>Python, FastAPI, Three.js, VRM, Gemini API, ElevenLabs API, AssemblyAI, SQLite</sub></p>
+      <p>感情ベースで対話を行う3Dキャラクターインタラクションシステム。声を持ち・表情を変え・記憶を積み重ね・話すたびに絆が深まる「相棒」として設計。</p>
+      <p>Three.js + VRM + Gemini + ElevenLabs + AssemblyAI + FastAPI + Socket.IOで構築。Web上に公開済み。</p>
+      <p><sub>Python, FastAPI, Three.js, VRM, Gemini API, ElevenLabs API</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3>部活動 顔と名前マッチングアプリ</h3>
-      <p><strong>「データ収集コスト」という構造的課題への挑戦。</strong></p>
-      <p>部活動の集合写真から顔を自動検出し、各部員が自分の顔をスワイプUIでclaim（名乗り出る）ことで、顔と名前が紐づいた名簿を自動生成。claim完了後は新入部員向けの「顔当てクイズ」に転用可能。</p>
-      <p>管理者が全員分のデータを入力するのではなく、本人が自分の分だけ入力する——というUXで、部活動という低課金力市場でも運用コストを抑えたソリューション。</p>
-      <p>プライバシー面では、顔写真を個人情報として扱い、オンデバイス処理を原則とし、同意取得・撤回対応を設計に組み込み済み。</p>
-      <p><sub>Swift, SwiftUI, Apple Vision Framework, Firebase (Firestore + Storage + Auth), Cloud Functions</sub></p>
+      <p><strong>データ収集コストという構造的課題への挑戦。</strong></p>
+      <p>集合写真から顔を自動検出し、各部員が自分の顔をスワイプUIでclaim。顔と名前が紐づいた名簿を自動生成し、新入部員向けの顔当てクイズに転用。</p>
+      <p>プライバシー面ではオンデバイス処理を原則とし、同意取得・撤回対応を設計に組み込み済み。</p>
+      <p><sub>Swift, SwiftUI, Apple Vision Framework, Firebase</sub></p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🎓 University Admission — 3校に絞った理由
+## 📅 Journey — これまでの歩み
 
-私は2027年4月入学に向けて、以下の3校の総合型選抜・AO入試に挑戦する。
+### 2024年（高専1年）
+- **プログラミングとの出会い** — 高専入学後、独学でプログラミングを開始
+- **Git/GitHubの習得** — バージョン管理の基礎を学び、個人プロジェクトを開始
 
-| 大学 | 学部・方式 | なぜこの大学か |
-|---|---|---|
-| **慶應義塾大学** | 環境情報学部 夏秋AO | 「AIの身体様式と人-AI関係」という問いを、情報科学×認知科学×デザイン×社会システムの領域横断で解ける唯一の環境。実装力と社会実装を重視するSFCの評価軸と、私の実績と問いが完全に一致する。 |
-| **立命館大学** | 情報理工学部 UNITE Program方式 | HCI・感情コンピューティング・3D描画・マルチモーダルAIが交わる領域を、情報科学として深められる環境。高専3年からの出願資格が公式に確認済みで、技術的具体性を評価してくれる入試形式。 |
-| **近畿大学** | 情報学部 総合型選抜 | ペーパーテストなし、書類→プレゼン・口頭試問のみ。出願資格が「プログラミング経験」「情報関係コンテスト出場」「情報関係資格」と私の実績に正面から一致。東大阪キャンパスで、地元関西から研究を続けられる。 |
+### 2025年（高専2年）
+- **AIチャットボット開発** — Gemini APIを活用したAIチャットボットを構築（AIGeminiChat, AI_ChatBot）
+- **ブラウザ拡張機能開発** — YouTube関連の拡張機能を開発・公開（youtube-force-filter, youtube-speed-controller）
+- **Raspberry Piプロジェクト** — デジタルサイネージプロジェクトを構築（rpi_DigitalSignageProject_ver2）
+- **LINE OpenHackU参加** — 金沢で開催されたハッカソンに参加し、チーム開発を経験
+- **全国高専プロコン出場** — 瞑想支援デバイス（ESP32・心拍センサー・ぬいぐるみ）を開発し、ハードウェア×ソフトウェアの融合に挑戦
+- **技育祭アンバサ** — 技育祭のアンバサダーとして活動
+- **DCON参加** — 高専DCONで事業構想を発表
+- **V-Mate初代開発開始** — 3D AIコンパニオンの原点となるプロジェクトを開始（v-mate-original）
 
-**なぜ一般入試ではなく総合型選抜か：** 私の強みは「紙の上で解く力」ではなく「手を動かして作り、問いを見つけ、形にする力」。この実装力と研究テーマを最も評価してくれる入試形式を選んだ。
+### 2026年（高専3年）
+- **V-Mate本格開発** — Three.js・VRM・Gemini・ElevenLabsを統合した本格的な3D AIコンパニオンを構築。Web上に公開
+- **身体様式比較研究** — AIの「身体様式」が人-AI関係に与える影響を検証する研究プラットフォームを構築（v-mate-study）
+- **部活動マッチングアプリ設計** — 集合写真から顔を検出し、名前をマッチングするアプリの設計・開発
+- **StudyType開発** — 学習支援ツールを開発
+- **ハッカソン参加継続** — 関西ビギナーズハッカソン、ヒーローズリーグ、ハッカソンjapanなどに参加
+- **未踏ジュニア応募** — 未踏ジュニアに応募し、技術力の証明を目指す
+- **大学受験準備** — 慶應SFC・立命館・近畿大学の総合型選抜に向けた準備を開始
 
 ---
 
-## 🛠️ Skills & Arsenal
+## 🛠️ Skills
 
 <table width="100%">
   <tr>
     <td width="33%" valign="top">
-      <h3>🌐 Web Development</h3>
-      <p>フロントエンドからバックエンド、インフラ構築までの一連の開発。</p>
-      <p>
-        <code>HTML/CSS</code> <code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Three.js</code> <code>Node.js</code> <code>FastAPI</code> <code>Flask</code> <code>PostgreSQL</code> <code>Supabase</code> <code>Nginx</code>
-      </p>
+      <h3>🌐 Web</h3>
+      <p><code>HTML/CSS</code> <code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Three.js</code> <code>Node.js</code> <code>FastAPI</code> <code>Flask</code> <code>PostgreSQL</code> <code>Supabase</code></p>
     </td>
     <td width="33%" valign="top">
       <h3>🤖 AI & Software</h3>
-      <p>AI連携、デスクトップ/モバイルアプリ、スクレイピング。</p>
-      <p>
-        <code>Python</code> <code>C++</code> <code>C#</code> <code>.NET</code> <code>Flutter</code> <code>Dart</code> <code>Swift</code> <code>SwiftUI</code>
-      </p>
+      <p><code>Python</code> <code>C++</code> <code>C#</code> <code>.NET</code> <code>Flutter</code> <code>Dart</code> <code>Swift</code> <code>SwiftUI</code></p>
     </td>
     <td width="33%" valign="top">
-      <h3>💻 Hardware & Others</h3>
-      <p>回路制御、ゲームエンジン、開発環境ツール。</p>
-      <p>
-        <code>Arduino</code> <code>Raspberry Pi</code> <code>ROS</code> <code>Unity</code> <code>Blender</code> <code>Docker</code> <code>Git</code>
-      </p>
+      <h3>💻 Hardware</h3>
+      <p><code>Arduino</code> <code>Raspberry Pi</code> <code>ESP32</code> <code>ROS</code> <code>Unity</code> <code>Blender</code> <code>Docker</code></p>
     </td>
   </tr>
 </table>
@@ -119,14 +131,16 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tak-min&show_icons=true&count_private=true&theme=github_dark&hide_border=true&bg_color=0d1117" alt="GitHub Stats" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tak-min&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Top Languages" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tak-min&theme=github-dark-blue&hide_border=true&background=0d1117" alt="GitHub Streak" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Tak-min&show_icons=true&count_private=true&theme=github_dark&bg_color=0d1117&border_color=30363d" alt="GitHub Stats" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tak-min&layout=compact&theme=github_dark&bg_color=0d1117&border_color=30363d" alt="Top Languages" height="150"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tak-min&theme=github-dark-blue&background=0d1117&border=30363d" alt="GitHub Streak" height="150"/>
 </div>
 
 ---
 
-## 💡 What I'm Building Toward
+## 💡 Vision — 私が目指すもの
+
+> **「AIがどんな"身体"をまとって私たちの前に現れるかが、人とAIの関係の質を左右する。その効果を解明し、人とAIが健全に関係を築ける設計原理をつくりたい。」**
 
 **短期（2026-2027）：**
 - V-Mateにトゥーンシェーダーを適用し、「二次元らしさ」を視覚的に実現
@@ -135,13 +149,11 @@
 
 **中期（大学時代）：**
 - 「AIの身体様式が人-AI関係に与える影響」を学術研究として深める
-- V-Mateを研究プラットフォームとして再構築し、比較実験を実施
 - 「人を支えるが、人を縛らない」AIの設計原理を提示する
 
 **長期（その先）：**
 - AIコンパニオンを事業化し、教育支援・メンタルヘルス・高齢者支援等领域に展開
 - 人とAIの関係を設計する技術者・研究者として、社会に貢献する
-- 「二次元の可愛い3DキャラがAIコンパニオンとして自然に話す世界」を、誰もが体験できる形で届ける
 
 ---
 
