@@ -4,7 +4,7 @@
 
 <p>
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&color=%2355cc00&size=25&center=true&vCenter=true&width=600&height=70&lines=AI+Companion+Creator;Full-Stack+Developer;High+School+Student+Entrepreneur;Building+the+future+of+human-AI+relationships" alt="Typing SVG">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&color=%2355cc00&size=25&center=true&vCenter=true&width=600&height=70&lines=AI+Companion+Creator;Full-Stack+Developer;High+School+Student+Entrepreneur;Entertainment+x+AI" alt="Typing SVG">
   </a>
 </p>
 
@@ -19,7 +19,7 @@
 
 ---
 
-### <p align="center">明石高専3年。二次元の可愛い3DキャラをAIコンパニオンとして動かす世界を、自分の手で作っている。<span style="color:#55cc00; font-weight:bold;">その先にあるのは、人とAIの関係を設計する研究者であり、起業家。</span></p>
+### <p align="center">明石高専3年。二次元の可愛い3DキャラをAIコンパニオンとして動かす世界を、自分の手で作っている。<span style="color:#55cc00; font-weight:bold;">エンタメの力で、AIと人の新しい関係を創る。</span></p>
 
 ---
 
@@ -29,13 +29,13 @@
 
 子どもの頃から抱いていた「**二次元の可愛い3DキャラがAIコンパニオンとして自然に話してくれる世界**」を実現したいという願いを原点に、3D AIコンパニオン「**V-Mate**」を個人で開発。Three.js・VRM・Gemini・ElevenLabsを統合し、声を持ち・表情を変え・記憶を積み重ねるキャラクターと会話できるシステムを構築した。
 
-この開発過程で一つの問いにたどり着いた。**AIと人は、どのように付き合っていくべきなのか。** AIが生活に深く浸透する時代に、人はAIをどう頼り、どう境界を保ち、どう共に生きればいいのか。この問いを技術と人間の知の交差点で解き明かしたいと考えている。
+私はAIコンパニオンを**エンタメの対象**として捉えている。ゲームやアニメの中にしか存在しなかった「二次元の相棒」を現実に召喚し、話すたびに絆が深まる——そんな体験を届けたい。技術は手段であり、 đíchは**人とAIの間に生まれる感情的なつながり**そのものだ。
 
-**現在、この問いを研究として深めるため、大学進学を準備している。** 高専で培った実装力を土台に、領域横断的な研究環境で「作れる」を「解明できる」へと引き上げたい。
+**現在、この想いを研究として深めるため、大学進学を準備している。** 高専で培った実装力を土台に、領域横断的な研究環境で「作れる」を「解明できる」へと引き上げたい。
 
 | Status | Focus | Base |
 | :---: | :---: | :---: |
-| `高専3年 → 大学進学準備中` | `AI Companion, 3D, HCI, 起業` | `兵庫県 明石市` |
+| `高専3年 → 大学進学準備中` | `AI Companion, Entertainment, HCI` | `兵庫県 明石市` |
 
 ---
 
@@ -59,26 +59,70 @@
 
 ---
 
-## 🚀 Projects
+## 🚀 Projects — これまでに作ったもの
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>V-Mate — 3D AI Companion</h3>
-      <p><strong>私の原点にして、研究の主軸。</strong></p>
-      <p>感情ベースで対話を行う3Dキャラクターインタラクションシステム。声を持ち・表情を変え・記憶を積み重ね・話すたびに絆が深まる「相棒」として設計。</p>
-      <p>Three.js + VRM + Gemini + ElevenLabs + AssemblyAI + FastAPI + Socket.IOで構築。Web上に公開済み。</p>
-      <p><sub>Python, FastAPI, Three.js, VRM, Gemini API, ElevenLabs API</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>部活動 顔と名前マッチングアプリ</h3>
-      <p><strong>データ収集コストという構造的課題への挑戦。</strong></p>
-      <p>集合写真から顔を自動検出し、各部員が自分の顔をスワイプUIでclaim。顔と名前が紐づいた名簿を自動生成し、新入部員向けの顔当てクイズに転用。</p>
-      <p>プライバシー面ではオンデバイス処理を原則とし、同意取得・撤回対応を設計に組み込み済み。</p>
-      <p><sub>Swift, SwiftUI, Apple Vision Framework, Firebase</sub></p>
-    </td>
-  </tr>
-</table>
+### V-Mate — 3D AI Companion
+**私の原点にして、最も情熱を注いだプロジェクト。**
+
+感情ベースで対話を行う3Dキャラクターインタラクションシステム。声を持ち・表情を変え・記憶を積み重ね・話すたびに絆が深まる「相棒」として設計。Three.js + VRM + Gemini + ElevenLabs + AssemblyAI + FastAPI + Socket.IOで構築し、Web上に公開済み。
+
+ゲームやアニメの中にしか存在しなかった「二次元の相棒」を、現実のデスクトップに召喚する——それがV-Mateの目的。
+
+`Python` `FastAPI` `Three.js` `VRM` `Gemini API` `ElevenLabs API`
+
+---
+
+### そらログ (Soralog) — ジンクス・占いWebサービス
+**位置情報や天候などのコンテキストに基づいた、パーソナライズされたジンクス・占いを提供するWebサービス。**
+
+PM兼チーフディベロッパーとして開発を主導。ユーザーの現在地・天候・時間帯などのコンテキストをAIが分析し、その瞬間に最適なジンクスや占いを届ける。
+
+`JavaScript` `Node.js` `PostgreSQL` `Render` `OpenWeatherMap`
+
+---
+
+### NextBro — ゲームを一緒にプレイできるAIエージェント
+**全国高専プロコン出場作品（高専2年）。**
+
+AIがゲームの状況を理解し、プレイヤーと会話しながら協力プレイできるシステム。Python + Vue + TypeScriptで構築。「NG WAR」というゲームモジュールを実装し、AIがゲーム内での会話や戦略をプレイヤーと共有する仕組みを実現。
+
+`Python` `Vue` `TypeScript` `WebSocket`
+
+---
+
+### ちらばる — 写真×地図×感情の記録アプリ
+**giiku_campハッカソンで開発（4名・1週間）。**
+
+写真を地図上に配置し、感情とともに思い出を記録するアプリケーション。EXIF位置情報の自動取得、2D/3D地図表示切替、10種類の感情タグに基づくパーソナライズAI推薦を実装。GlassモーフィズムUIで地図との一体感を演出。
+
+`React 19` `TypeScript` `Vite` `Leaflet` `MapLibre GL` `AWS Cognito` `DynamoDB` `Google Places API`
+
+---
+
+### StudyType — 明石高専 学科タイプ診断
+**明石高専のC科/M科/E科/A科の雰囲気を、MBTI風に楽しく診断するReactアプリ。**
+
+選択肢ごとにC/M/E/Aへ1点ずつ加算し、同点の場合は直近の回答傾向を反映する診断ロジックを実装。Cloudflare Workersにデプロイ済み。
+
+`React` `TypeScript` `Vite` `Cloudflare Workers`
+
+---
+
+### 瞑想支援デバイス — 全国高専プロコン出場作品（高専3年）
+**ハードウェア×ソフトウェアの融合に挑戦。**
+
+ESP32・心拍センサー・ぬいぐるみを組み合わせた瞑想支援デバイス。ユーザーの心拍をリアルタイムで計測し、DCモータで呼吸を再現、リニア振動モーターで心音を体感、ポリイミドヒーターで温かさを実現。
+
+`ESP32` `Arduino` `3Dプリンタ` `心拍センサー`
+
+---
+
+### MindEmo — 感情認識AI
+**高専2年のチーム開発プロジェクト。**
+
+FastAPI + Vue 3で構築した感情認識AI。「人の感情とAIをつなぐ」という問題意識が、現在のV-Mateの研究的な問いへと続いている。
+
+`FastAPI` `Vue 3`
 
 ---
 
@@ -89,21 +133,20 @@
 - **Git/GitHubの習得** — バージョン管理の基礎を学び、個人プロジェクトを開始
 
 ### 2025年（高専2年）
-- **AIチャットボット開発** — Gemini APIを活用したAIチャットボットを構築（AIGeminiChat, AI_ChatBot）
-- **ブラウザ拡張機能開発** — YouTube関連の拡張機能を開発・公開（youtube-force-filter, youtube-speed-controller）
-- **自宅サーバ構築** — Raspberry Piで自宅サーバを構築し、Kubernetesでサービスを運用開始
+- **MindEmo開発** — 感情認識AIにチームの一員として深く関わり、FastAPI + Vue 3で構築
+- **全国高専プロコン出場（高専2年）** — ゲームを一緒にプレイできるAIエージェント「NextBro」を開発し出場
 - **LINE OpenHackU参加** — 金沢で開催されたハッカソンに参加し、チーム開発を経験
-- **全国高専プロコン出場（高専2年）** — ゲームを一緒にプレイできるAIエージェント「NextBro」を開発し出場。Python + Vue + TypeScriptで構築し、AIがゲームの状況を理解しプレイヤーと会話しながら協力プレイできるシステムを実現
 - **技育祭アンバサ** — 技育祭のアンバサダーとして活動
 - **DCON参加** — 高専DCONで事業構想を発表
-- **V-Mate初代開発開始** — 3D AIコンパニオンの原点となるプロジェクトを開始（v-mate-original）
+- **V-Mate初代開発開始** — 3D AIコンパニオンの原点となるプロジェクトを開始
+- **自宅サーバ構築** — Raspberry Piで自宅サーバを構築し、Kubernetesでサービスを運用開始
 
 ### 2026年（高専3年）
-- **V-Mate本格開発** — Three.js・VRM・Gemini・ElevenLabsを統合した本格的な3D AIコンパニオンを構築。Web上に公開
-- **身体様式比較研究** — AIの「身体様式」が人-AI関係に与える影響を検証する研究プラットフォームを構築（v-mate-study）
-- **部活動マッチングアプリ設計** — 集合写真から顔を検出し、名前をマッチングするアプリの設計・開発
-- **StudyType開発** — 学習支援ツールを開発
-- **全国高専プロコン出場（高専3年）** — 瞑想支援デバイス（ESP32・心拍センサー・ぬいぐるみ）を開発し、ハードウェア×ソフトウェアの融合に挑戦
+- **V-Mate本格開発** — Three.js・VRM・Gemini・ElevenLabsを統合した本格的な3D AIコンパニオンを構築し、Web上に公開
+- **そらログ開発** — 位置情報や天候に基づいたジンクス・占いWebサービスをPM兼チーフディベロッパーとして開発
+- **ちらばる開発** — giiku_campハッカソンで写真×地図×感情の記録アプリを開発（4名・1週間）
+- **StudyType開発** — 明石高専の学科タイプ診断アプリを開発・公開
+- **全国高専プロコン出場（高専3年）** — 瞑想支援デバイスを開発し、ハードウェア×ソフトウェアの融合に挑戦
 - **ハッカソン参加継続** — 関西ビギナーズハッカソン、ヒーローズリーグ、ハッカソンjapanなどに参加
 - **未踏ジュニア応募** — 未踏ジュニアに応募し、技術力の証明を目指す
 - **大学受験準備** — 慶應SFC・立命館・近畿大学の総合型選抜に向けた準備を開始
@@ -116,7 +159,7 @@
   <tr>
     <td width="33%" valign="top">
       <h3>🌐 Web</h3>
-      <p><code>HTML/CSS</code> <code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Three.js</code> <code>Node.js</code> <code>FastAPI</code> <code>Flask</code> <code>PostgreSQL</code> <code>Supabase</code></p>
+      <p><code>HTML/CSS</code> <code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Vue</code> <code>Three.js</code> <code>Node.js</code> <code>FastAPI</code> <code>Flask</code> <code>PostgreSQL</code> <code>Supabase</code></p>
     </td>
     <td width="33%" valign="top">
       <h3>🤖 AI & Software</h3>
@@ -143,9 +186,11 @@
 
 ## 💡 Vision — 私が目指すもの
 
-> **「AIと人は、どのように付き合っていくべきなのか。AIが生活に深く浸透する時代に、人はAIをどう頼り、どう境界を保ち、どう共に生きればいいのか。」**
+> **「ゲームやアニメの中にしか存在しなかった"二次元の相棒"を、誰もが日常で体験できる世界をつくる。」**
 
-AIコンパニオンを事業化し、教育支援・メンタルヘルス・高齢者支援等领域に展開する。そして「人を支えるが、人を縛らない」AIの設計原理を社会に届け、人とAIが健全に共に在れる世界の実現に貢献する。
+AIコンパニオンは、単なるツールではなく、**人と感情的につながるエンターテインメント**だ。話すたびに絆が深まり、一緒に成長する——そんな体験を届けたい。
+
+技術が成熟しても、人がAIに求めるのは「賢さ」だけではない。**安心感、親しみ、楽しさ、共感**。私はこれらの感情を設計し、AIと人の間に生まれる新しい関係をエンタメとして届ける。
 
 ---
 
